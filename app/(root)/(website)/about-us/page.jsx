@@ -2,16 +2,10 @@
 import Breadcums from '@/components/ui/Application/Admin/Breadcums'
 import React from 'react'
 
-const breadcrumb = {
- title: 'About',
- links: [
-   { label: 'About' },
- ]
-}
+
 const AboutUs = () => {
  return (
    <div>
-     <Breadcums props={breadcrumb} />
      <div className='lg:px-40 px-5 py-20'>
        <h1 className='text-xl font-semibold mb-3'>About Us</h1>
        <p>Welcome to E-store, your one-stop destination for quality, convenience, and innovation in online shopping.</p>
